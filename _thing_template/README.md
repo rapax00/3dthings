@@ -14,7 +14,7 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
   - [Extras](#extras-optional)
   - [GCODE-3MF](#gcode-3mf-optional)
   - [Images](#images-at-least-1)
-  - [Parts](#parts-mandatory)
+  - [Parts-Assemblys](#parts-assemblys-mandatory)
   - [STL](#stl-mandatory)
 - [Print](#print)
   - [Print](#print-mandatory)
@@ -100,7 +100,7 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
 - thing.png: brief description of the image (Is it a render or real print? What part/assembly is this?).
 - ...
 
-### Parts/Assemblys (mandatory)
+### Parts-Assemblys (mandatory)
 
 > **Permitted files**: FCSTD, STEP.
 >
