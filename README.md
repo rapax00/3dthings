@@ -53,25 +53,26 @@ To create a large collection of 3D designs for free use and collaboration.
 │   │   ├───project.3mf
 │   ├───Images
 │   │   ├───thing.png
-│   ├───Parts
+│   ├───Parts-Assemblys
 │   │   ├───part.FCStd
 │   │   ├───part.STEP
-│   ├───STL
+│   ├───STLs
 │   │   ├───thing.stl
 │   ├───README.md
 ├───README.md
+├───LICENSE
 ```
 
-- Thing: Folder with all files of the thing. One folder per thing.
-  - Extras (optional): Extra files like 2D designs, plans, electronics, etc.
-  - GCODE-3MF (optional): GCODE and 3MF files for printing and configuration.
-  - Images (at least 1): Images of the thing. Render, STL, real print, etc.
-  - Parts (mandatory): Parts/designs of the thing in native editable format.
-  - STL (mandatory): STL files of the thing.
-  - README.md: Description of the thing.
-- CONTRIBUTING.md: Guidelines for contributions.
-- README.md: Main description of the repo.
-- LICENSE: License of the repo and all things.
+- **Thing**: Folder with all files of the thing. One folder per thing.
+  - **Extras** (optional): Extra files like 2D designs, plans, electronics, etc.
+  - **GCODE-3MF** (optional): GCODE and 3MF files for printing and configuration.
+  - **Images** (at least 1): Images of the thing. Render, STL, real print, etc.
+  - **Parts-Assemblys** (mandatory): Parts/designs of the thing in native editable format.
+  - **STLs** (mandatory): STL files of the thing.
+  - **README.md**: Description of the thing.
+- **CONTRIBUTING.md**: Guidelines for contributions.
+- **README.md**: Main description of the repo.
+- **LICENSE**: License of the repo and all things.
 
 ## Considerations
 
