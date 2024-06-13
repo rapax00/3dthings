@@ -23,6 +23,8 @@ This is an open collection of 3D designs of projects, hobby creations ands comer
 
 I believe that the best way to learn and grow is by sharing and receiving knowledge.
 
+> All designs in this repo are under the MIT license.
+
 ### Mision
 
 To share and collaborate with the 3D maker community to create better things.
@@ -81,7 +83,7 @@ To create a large collection of 3D designs for free use and collaboration.
 
 ## To Do
 
-- [ ] Add License
+- [x] Add License
 - [ ] Contribution guidlines
 
 ## Contributors
