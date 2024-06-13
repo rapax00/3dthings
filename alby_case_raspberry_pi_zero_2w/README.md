@@ -1,8 +1,8 @@
 # Alby case for Raspberry Pi Zero 2W
 
-This is a case design for a Raspberry Pi Zero 2W made in collaboration with this guide: [Make your own Lightning node with Alby Hub](https://guides.getalby.com/user-guide/v/alby-account-and-browser-extension/alby-hub/running-alby-hub/raspberry-pi-running-alby-hub).
+This is a case design for a Raspberry Pi Zero 2W. This design has space for an aluminum heatsink of approximately ~8mm in height.
 
-This design has space for an aluminum heatsink of approximately ~8mm in height.
+Thing in Thingiverse: [Alby case for Raspberry Pi Zero 2W](https://www.thingiverse.com/thing:6657333)
 
 ## Index
 
@@ -124,7 +124,5 @@ Glue the `alby_encastre_hembra.stl` to `alby_case_part_bottom.stl` and `alby_enc
 ## Creator
 
 Made with :open_hands: by [Rapax](https://rapax.dev)
-
-Thing in Thingiverse: [Alby case for Raspberry Pi Zero 2W](https://www.thingiverse.com/thing:6657333)
 
 Tips are welcome through Lightning Zap to :zap:**rapax@lawallet.ar** or with [**Lightning QR**](https://wallet.lacrypta.ar/lnurlp/link/9ZxRDq).
