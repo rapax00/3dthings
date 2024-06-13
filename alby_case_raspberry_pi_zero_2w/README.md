@@ -22,7 +22,7 @@ This design has space for an aluminum heatsink of approximately ~8mm in height.
 
 ## Images
 
-<div style="overflow-x: auto; white-space: nowrap;">
+<div style="display: flex; overflow-x: auto;">
   <img 
     src="./Images/alby_case_v1_front.png" 
     alt="alby_case_v1_front" 
