@@ -50,25 +50,6 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
 > </div>
 > ```
 
-> HTML example horizontal scroll
->
-> ```html
-> <div
->   style="overflow-x: auto; white-space: nowrap; display: flex; align-items: center;"
-> >
->   <img
->     src="./images/thing.png"
->     alt="description 1"
->     style="display: inline-block; width: 300px; margin-right: 10px;"
->   />
->   <img
->     src="./images/thing.png"
->     alt="description 1"
->     style="display: inline-block; width: 300px; margin-right: 10px;"
->   />
-> </div>
-> ```
-
 > Markdown example
 >
 > ```markdown
