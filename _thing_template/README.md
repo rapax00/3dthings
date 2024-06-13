@@ -93,7 +93,7 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
 >
 > **Sugerences**: 2D design files (like SVG or DXF), assembly plans, electronics circuts, etc.
 
-- file.xxx: brief description of your file (What is it? What does this contain? How use it?).
+- `file.xxx`: brief description of your file (What is it? What does this contain? How use it?).
 - ...
 
 ### GCODE-3MF (optional)
@@ -104,31 +104,31 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
 >
 > **Sugerences**: files plug and play ready for print (GCODE), files with all settings for print (3MF). Include files (GCODE and 3MF) for each STL you include in the STL folder (you can place many STLs in one GCODE/3MF).
 
-- printable.gcode: brief description of your gcode (What parts are here? Does it contain extra code?).
-- project.3mf: brief description of you project (STLs included, estimated time, etc).
+- `printable.gcode`: brief description of your gcode (What parts are here? Does it contain extra code?).
+- `project.3mf`: brief description of you project (STLs included, estimated time, etc).
 - ...
 
-### Images (at least 1)
+### Images (optional)
+
+> This section is optional in the sense that it is not necessary to explain the images, but it is MUST to include at least one image in the Images folder.
 
 > **Permitted files**: PNG.
 >
-> **Considerations**: if are image of a PART, maintain the same name of the PART file for consistency and understanding.
->
-> **Sugerences**: add images such as render, real print, STL, FreeCAD design, etc.
+> **Sugerences**: add images such as render, real print, STL, FreeCAD design, etc. If are image of a PART use the same name of the PART file for consistency and understanding.
 
-- thing.png: brief description of the image (Is it a render or real print? What part/assembly is this?).
+- `thing.png`: brief description of the image (Is it a render or real print? What part/assembly is this?).
 - ...
 
 ### Parts-Assemblys (mandatory)
 
 > **Permitted files**: FCSTD, STEP.
 >
-> **Considerations**: choose descriptive names for the files like support_top_case_cover (You use this name for [GCODE-3MF](#gcode-3mf-optional), [Images](#images-at-least-1-1) and [STL](#stl-mandatory)). For each FCSTD file, you MUST have one or more STEP files.v
+> **Considerations**: choose descriptive names for the files like support_top_case_cover (You use this name for [GCODE-3MF](#gcode-3mf-optional) and [STL](#stl-mandatory)). For each FCSTD file, you MUST have one or more STEP files.
 >
-> **Sugerences**: if you have an FCSTD with many pieces, you can export one STEP for each one.
+> **Sugerences**: if you have an FCSTD with many pieces, you can export one STEP for each one. Use the same name of parts to [Images](#images-at-least-1-1).
 
-- part.FCStd: brief description of the part (What is this part?).
-- part.STEP: idem.
+- `part.FCStd`: brief description of the part (What is this part?).
+- `part.STEP`: idem.
 - ...
 
 ### STLs (mandatory)
@@ -139,7 +139,7 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
 >
 > **Sugerences**: if you have an FCSTD with many pieces, you can export one STL for each one.
 
-- thing.stl: brief description of the STL (What is this part? What face is better for touch the printer bed?).
+- `thing.stl`: brief description of the STL (What is this part? What face is better for touch the printer bed?).
 - ...
 
 ## Print and Assembly Guide
@@ -150,7 +150,7 @@ Printer used: [printer name]
 
 > You can add more pieces with the same structure, copy `#### thing1.stl` section (include `##### Printer Settings`) and paste below `Extra settings` of you `thing1.stl` and above of `Asembly and extras`.
 
-#### thing1.stl
+#### `thing1.stl`
 
 > You can add more pieces with the same printer settings, add the name next to thing1.stl.
 
