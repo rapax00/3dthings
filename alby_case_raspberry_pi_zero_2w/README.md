@@ -16,12 +16,13 @@ This design has space for an aluminum heatsink of approximately ~8mm in height.
     - [Top and Bottom](#alby_case_part_bottomstl-and-alby_case_part_topstl)
       - [Printer Settings](#printer-settings)
     - [Sockets](#alby_encastre_hembrastl-and-alby_encastre_machostl)
+      - [Printer Settings](#printer-settings)
 - [Assembly and extras](#assembly-and-extras)
 - [Creator](#creator)
 
 ## Images
 
-<div style="overflow-x: auto; white-space: nowrap; display: flex; align-items: center;">
+<div style="overflow-x: auto; white-space: nowrap;">
   <img 
     src="./Images/alby_case_v1_front.png" 
     alt="alby_case_v1_front" 
