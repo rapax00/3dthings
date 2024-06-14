@@ -2,7 +2,7 @@
 
 This is a case design for a Raspberry Pi Zero 2W. This design has space for an aluminum heatsink of approximately ~8mm in height.
 
-Thing in Thingiverse: [Alby case for Raspberry Pi Zero 2W](https://www.thingiverse.com/thing:6657333)
+**Thing in Thingiverse**: [Alby case for Raspberry Pi Zero 2W](https://www.thingiverse.com/thing:6657333)
 
 ## Index
 
@@ -62,9 +62,9 @@ Thing in Thingiverse: [Alby case for Raspberry Pi Zero 2W](https://www.thingiver
 
 ### GCODE-3MF
 
-- `alby_case_..._.gcode`: `alby_case_part_top.stl` and `alby_case_part_bottom.stl` ready to print.
+- `alby_case_....gcode`: `alby_case_part_top.stl` and `alby_case_part_bottom.stl` ready to print.
 - `alby_case.3mf`: `alby_case_part_top.stl` and `alby_case_part_bottom.stl` with all settings ready to export o modify.
-- `alby_encastres_..._.gcode`: x4 `alby_encastre_macho.stl` and x4 `alby_encastre_hembra.stl` ready to print.
+- `alby_encastres_....gcode`: x4 `alby_encastre_macho.stl` and x4 `alby_encastre_hembra.stl` ready to print.
 - `alby_encastres.3mf`: `alby_encastre_macho.stl` and `alby_encastre_hembra.stl` with all settings ready to export o modify.
 
 ### Parts-Assemblys
