@@ -10,7 +10,7 @@ Changes:
   - Be able to connect the flat cable of an OV5647 camera without having to rotate its cable
 - Add space for ~8mm aluminum heatsink.
 
-Thing in Thingiverse: [Raspberry Pi Zero 2W Camera Arm Case [Remix]](https://www.thingiverse.com/thing:6661250)
+**Thing in Thingiverse**: [Raspberry Pi Zero 2W Camera Arm Case [Remix]](https://www.thingiverse.com/thing:6661250)
 
 ## Index
 
