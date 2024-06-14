@@ -24,7 +24,7 @@ Thing in Thingiverse: [Raspberry Pi Zero 2W Camera Arm Case [Remix]](https://www
     - [Printer Settings](#printer-settings)
 - [Creator](#creator)
 
-## Images (at least 1)
+## Images
 
 <div
   style="overflow-x: auto; white-space: nowrap; display: flex; align-items: center;"
