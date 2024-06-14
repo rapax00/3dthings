@@ -32,7 +32,7 @@ Changes:
   <img
     src="./Images/arm_freecad.png"
     alt="arm_freecad"
-    style="display: inline-block; width: 300px; margin-right: 10px;"
+    style="display: inline-block; width: 800px; margin-right: 10px;"
   />
 </div>
 
