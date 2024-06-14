@@ -23,7 +23,7 @@ This is an open collection of 3D designs of projects, hobby creations ands comer
 
 I believe that the best way to learn and grow is by sharing and receiving knowledge.
 
-> All designs in this repo are under the MIT license.
+> All designs in this repository are licensed under the MIT License unless a LICENSE file is included inside a Thing folder.
 
 ### Mision
 
@@ -71,14 +71,15 @@ To create a large collection of 3D designs for free use and collaboration.
   - **Images** (at least 1): Images of the thing. Render, STL, real print, etc.
   - **Parts-Assemblys** (mandatory): Parts/designs of the thing in native editable format.
   - **STLs** (mandatory): STL files of the thing.
-  - **README.md**: Description of the thing.
-- **CONTRIBUTING.md**: Guidelines for contributions.
+  - **README.md** (mandatory): Description of the thing.
+  - **LICENSE** (optional): If the thing has a different license than the repository.
+- **CONTRIBUTING.md**: Guidelines for contributions. (WIP)
 - **README.md**: Main description of the repo.
 - **LICENSE**: License of the repo and all things.
 
 ## Considerations
 
-- All designs in this repo are under the license in the main folder.
+- All designs in this repository are licensed under the MIT License unless a LICENSE file is included inside a Thing folder.
 - All software used is FOSS.
 
 ## To Do
