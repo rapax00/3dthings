@@ -19,6 +19,8 @@
 
 This is an open collection of 3D designs of projects, hobby creations ands comercial things.
 
+> Also available on [Thingiverse](https://www.thingiverse.com/rapax00).
+
 ### Why free and open?
 
 I believe that the best way to learn and grow is by sharing and receiving knowledge.
