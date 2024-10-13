@@ -42,42 +42,61 @@ To create a large collection of 3D designs for free use and collaboration.
 > All software used are FOSS.
 
 - FreeCAD: For 3D modeling.
+- Blender: For 3D modeling.
 - PrusaSlicer: For slicing.
 - Inkscape: For 2D design.
+- etc.
 
 ## Repo structure and files
 
 ```
 3DThings
 ├───Thing
-│   ├───Extras
-│   │   ├───file.xxx
-│   ├───GCODE-3MF
-│   │   ├───printable.gcode
-│   │   ├───project.3mf
-│   ├───Images
-│   │   ├───thing.png
-│   ├───Parts-Assemblys
-│   │   ├───part.FCStd
-│   │   ├───part.STEP
-│   ├───STLs
-│   │   ├───thing.stl
+│   ├───designs
+│   │   ├───blender
+│   │   │   └───file.blend
+│   │   ├───freecad
+│   │   |   └───file.FCStd
+│   │   └───inkscape
+│   │       └───file.svg
+│   ├───extras
+│   │   └───images
+│   │       └───file.png
+│   ├───printer
+│   │   ├───3mf
+│   │   │   └───file.3mf
+│   │   ├───gcode
+│   │   │   └───file.gcode
+│   │   └───stl
+│   │       └───file.stl
 │   ├───README.md
+│   └───LICENSE
 ├───README.md
-├───LICENSE
+└───LICENSE
 ```
 
-- **Thing**: Folder with all files of the thing. One folder per thing.
-  - **Extras** (optional): Extra files like 2D designs, plans, electronics, etc.
-  - **GCODE-3MF** (optional): GCODE and 3MF files for printing and configuration.
-  - **Images** (at least 1): Images of the thing. Render, STL, real print, etc.
-  - **Parts-Assemblys** (mandatory): Parts/designs of the thing in native editable format.
-  - **STLs** (mandatory): STL files of the thing.
-  - **README.md** (mandatory): Description of the thing.
-  - **LICENSE** (optional): If the thing has a different license than the repository.
-- **CONTRIBUTING.md**: Guidelines for contributions. (WIP)
-- **README.md**: Main description of the repo.
-- **LICENSE**: License of the repo and all things.
+- **Thing**: Template folder structure for each thing.
+  - **designs**: Folder for source design files.
+    - _blender_
+    - _freecad_
+    - _inkscape_
+    - _other_
+  - **extras**: Extra files like 2D designs, plans, electronics, etc.
+    - _images_ (Images of the thing. Render, STL, real print, etc.)
+  - **printer**: Files related to printing.
+    - _3mf_
+    - _gcode_
+    - _stl_
+  - **README.md**: Description of the thing (you have a template).
+  - **LICENSE**: License of the thing.
+
+> **Important:**
+>
+> - All folders in bold are mandatory
+> - You MUST include editable project files in **desings** folder (from any software mention above or FOSS)
+> - You MUST include STL files in **printer/stl** folder.
+> - You MUST include at least 1 image of the thing in **extras/images** folder.
+> - If you want to use a license different from MIT, you MUST include a LICENSE file with the license in **Thing** folder.
 
 ## Considerations
 

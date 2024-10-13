@@ -10,20 +10,11 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
 
 > Modify table of contents to match with your project (See Files Included, and Print and Assembly Guide).
 
-- [Files Included](#files-included)
-  - [Extras](#extras-optional)
-  - [GCODE-3MF](#gcode-3mf-optional)
-  - [Images](#images-at-least-1)
-  - [Parts-Assemblys](#parts-assemblys-mandatory)
-  - [STL](#stl-mandatory)
-- [Print](#print)
-  - [Print](#print-mandatory)
-    - [thing1.stl](#thing1stl)
-      - [Printer Settings](#printer-settings)
-- [Assembly and extras](#assembly-and-extras-optional)
+- [Images](#images-at-least-1-1-mandatory)
+- [Print and Assembly Guide](#print-and-assembly-guide-mandatory)
 - [Creator](#creator)
 
-## Images (at least 1)
+## Images (at least 1) (mandatory)
 
 > Use images included in `./images` folder.
 >
@@ -56,55 +47,17 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
 > ![description](./images/thing.png)
 > ```
 
-## Files Included (mandatorty)
-
-> Describe what files are included in each folder. You MUST describe all files included.
->
-> All files name MUST written in [snake_case](https://en.wikipedia.org/wiki/Snake_case). e.g. `support_top_case_cover.extension`.
-
-### Design (mandatory)
-
-> **Permitted files**: `.FCStd`, `.blend`, `.svg` and others files of FOSS.
->
-> **Considerations**: choose descriptive names for the files like `support_top_case_cover`.
-
-- `freecad/file.FCStd`: brief description of the file (What parts are in this file?).
-- `freecad/file.blend`: idem.
-- `freecad/file.svg`: idem.
-- ...
-
-### Extras (optional)
-
-> **Permitted files**: not restricted.
->
-> **Suggestions**: 2D design files, assembly plans, electronics circuits, etc.
-
-- `images/file.png`: brief description of the image
-- `file.xxx`: brief description of your file (What is it? What does this contain? How use it?).
-- ...
-
-## Printer
-
-> **Permitted files**: `.gcode`, `.3mf`, `.stl`.
->
-> **Sugerences**: maintain the same name of the design file for consistency and understanding.
-
-- `3mf/file.3mf`: brief description of the 3mf (What is this file?).
-- `gcode/file.gcode`:
-- `stl/file.stl`: idem.
-- ...
-
-## Print and Assembly Guide
+## Print and Assembly Guide (mandatory)
 
 ### Print (mandatory)
 
 Printer used: [printer name]
 
-> You can add more pieces with the same structure, copy `#### thing1.stl` section (include `##### Printer Settings`) and paste below `Extra settings` of you `thing1.stl` and above of `Asembly and extras`.
+> You can add more pieces with the same structure, copy `#### file.stl` section (include `##### Printer Settings`) and paste below `Extra settings` of you `file.stl` and above of `Asembly and extras`.
 
-#### `thing1.stl`
+#### `file.stl`
 
-> You can add more pieces with the same printer settings, add the name next to thing1.stl.
+> You can add more pieces with the same printer settings, add the name next to file.stl.
 
 ##### Printer Settings
 
@@ -118,7 +71,7 @@ Printer used: [printer name]
 
 > Extra settings or considerations (description for supports, layer color change, pause prints, fan speed, etc).
 
-## Assembly and extras (optional)
+### Assembly and extras (optional)
 
 > Add a step-by-step guide to assemble the thing. Mount pieces, add glue, extra list of materials, etc.
 
