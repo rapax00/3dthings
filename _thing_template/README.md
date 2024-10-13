@@ -61,66 +61,37 @@ Prayers written in grey color (whit `>`) is a instruction for you, you can delet
 > Describe what files are included in each folder. You MUST describe all files included.
 >
 > All files name MUST written in [snake_case](https://en.wikipedia.org/wiki/Snake_case). e.g. `support_top_case_cover.extension`.
+
+### Design (mandatory)
+
+> **Permitted files**: `.FCStd`, `.blend`, `.svg` and others files of FOSS.
 >
-> What are **Permitted files**? Extensions that you SHOULD include in the folder, only allowed files that are on the list.
->
-> What are **Considerations**? You MUST comply with this.
->
-> What are **Sugerences**? Recommendations, not mandatory.
+> **Considerations**: choose descriptive names for the files like `support_top_case_cover`.
+
+- `freecad/file.FCStd`: brief description of the file (What parts are in this file?).
+- `freecad/file.blend`: idem.
+- `freecad/file.svg`: idem.
+- ...
 
 ### Extras (optional)
 
 > **Permitted files**: not restricted.
 >
-> **Sugerences**: 2D design files (like SVG or DXF), assembly plans, electronics circuts, etc.
+> **Suggestions**: 2D design files, assembly plans, electronics circuits, etc.
 
+- `images/file.png`: brief description of the image
 - `file.xxx`: brief description of your file (What is it? What does this contain? How use it?).
 - ...
 
-### GCODE-3MF (optional)
+## Printer
 
-> **Permitted files**: GCODE and 3MF.
+> **Permitted files**: `.gcode`, `.3mf`, `.stl`.
 >
-> **Considerations**: maintain the same name of the PART for consistency and understanding.
->
-> **Sugerences**: files plug and play ready for print (GCODE), files with all settings for print (3MF). Include files (GCODE and 3MF) for each STL you include in the STL folder (you can place many STLs in one GCODE/3MF).
+> **Sugerences**: maintain the same name of the design file for consistency and understanding.
 
-- `printable.gcode`: brief description of your gcode (What parts are here? Does it contain extra code?).
-- `project.3mf`: brief description of you project (STLs included, estimated time, etc).
-- ...
-
-### Images (optional)
-
-> This section is optional in the sense that it is not necessary to explain the images, but it is MUST to include at least one image in the Images folder.
-
-> **Permitted files**: PNG.
->
-> **Sugerences**: add images such as render, real print, STL, FreeCAD design, etc. If are image of a PART use the same name of the PART file for consistency and understanding.
-
-- `thing.png`: brief description of the image (Is it a render or real print? What part/assembly is this?).
-- ...
-
-### Parts-Assemblys (mandatory)
-
-> **Permitted files**: FCSTD, STEP.
->
-> **Considerations**: choose descriptive names for the files like support_top_case_cover (You use this name for [GCODE-3MF](#gcode-3mf-optional) and [STL](#stl-mandatory)). For each FCSTD file, you MUST have one or more STEP files.
->
-> **Sugerences**: if you have an FCSTD with many pieces, you can export one STEP for each one. Use the same name of parts to [Images](#images-at-least-1-1).
-
-- `part.FCStd`: brief description of the part (What is this part?).
-- `part.STEP`: idem.
-- ...
-
-### STLs (mandatory)
-
-> **Permitted files**: STL.
->
-> **Considerations**: maintain the same name of the PART for consistency and understanding.
->
-> **Sugerences**: if you have an FCSTD with many pieces, you can export one STL for each one.
-
-- `thing.stl`: brief description of the STL (What is this part? What face is better for touch the printer bed?).
+- `3mf/file.3mf`: brief description of the 3mf (What is this file?).
+- `gcode/file.gcode`:
+- `stl/file.stl`: idem.
 - ...
 
 ## Print and Assembly Guide
